@@ -1,0 +1,25 @@
+.custom-gallery-container {
+  .image-gallery-icon:hover {
+    color: #9c27b0;
+  }
+
+  .image-gallery-thumbnail.active,
+  .image-gallery-thumbnail:hover {
+    border-color: #9c27b0;
+  }
+
+  .image-gallery-slide img {
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 470px !important;
+    max-width: 100%;
+  }
+
+  .fullscreen .image-gallery-slide img {
+    max-height: 85vh;
+  }
+
+  .image-gallery-thumbnails .image-gallery-thumbnails-container {
+    max-width: 450px;
+  }
+}
